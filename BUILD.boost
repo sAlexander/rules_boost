@@ -149,6 +149,9 @@ boost_library(
 
 boost_library(
     name = "dynamic_bitset",
+    deps = [
+        ":config",
+    ],
 )
 
 boost_library(
